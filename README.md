@@ -13,9 +13,6 @@ It is written in **simple language** so even beginners can follow easily.
 
 This repository contains a Python notebook tutorial designed to teach the concepts of the **Receiver Operating Characteristic (ROC) curve** and the **Area Under the Curve (AUC)** in a simple, hands-on way. We use dummy data that mimics T-cell receptor (TCR) antigen binding to make the examples relevant for immunologists and bioinformaticians.
 
-The entire tutorial is ready to run step-by-step in Google Colab.
-
-***
 
 ## 🤔 What are ROC and AUC? (The Simple Explanation)
 
@@ -29,7 +26,7 @@ The ROC curve is a graph that tells this story. It plots two things:
 1.  **True Positive Rate (Y-axis):** How many of the *actual* binders did our model correctly identify? (e.g., "You correctly found 90% of the true binders.")
 2.  **False Positive Rate (X-axis):** How many non-binders did our model *incorrectly* label as binders? (e.g., "You raised a false alarm on 10% of the non-binders.")
 
-![A classic ROC curve with labels](https://i.imgur.com/2c06t5F.png)
+<img width="545" height="400" alt="image" src="https://github.com/user-attachments/assets/fa86435c-51be-43d1-bef7-9f98894af21b" />
 
 * **A great model** will have a curve that **hugs the top-left corner**. This means it's finding most of the true binders (high True Positive Rate) without making a lot of mistakes (low False Positive Rate).
 * **A terrible model** will have a curve along the **diagonal dashed line**. This line represents random guessing, like flipping a coin.
