@@ -2,14 +2,14 @@
 Beginner-friendly tutorial to learn ROC–AUC using dummy TCR antigen binding data (binary + multi-class).
 
 
-# 🧬 ROC–AUC Tutorial with Dummy TCR Data
+#  ROC–AUC Tutorial with Dummy TCR Data
 
 This repository is a **step-by-step tutorial** to understand and apply **ROC–AUC (Receiver Operating Characteristic – Area Under Curve)** in the context of **T-cell receptor (TCR) antigen binding**.  
 It is written in **simple language** so even beginners can follow easily.
 
 ---
 
-# A Beginner's Guide to ROC and AUC for TCR-Antigen Binding 🧬
+# A Beginner's Guide to ROC and AUC for TCR-Antigen Binding 
 
 This repository contains a Python notebook tutorial designed to teach the concepts of the **Receiver Operating Characteristic (ROC) curve** and the **Area Under the Curve (AUC)** in a simple, hands-on way. We use dummy data that mimics T-cell receptor (TCR) antigen binding to make the examples relevant for immunologists and bioinformaticians.
 
@@ -44,7 +44,7 @@ The main advantage of AUC is that it shows how good a model is at ranking predic
 
 ***
 
-## 🧪 The Tutorial Walkthrough
+##  The Tutorial Walkthrough
 
 This tutorial runs two key examples using our dummy TCR data.
 
@@ -67,7 +67,7 @@ Next, we ask a more complex question: which antigen does the TCR bind to? (e.g.,
 
 ***
 
-## 📈 What We Found: The Results
+##  What We Found: The Results
 
 ### Binary Results
 The plot clearly shows that the **Random Forest model is much better** than the Logistic Regression model. Its curve is much closer to the top-left corner.
@@ -91,14 +91,14 @@ All scores are well above 0.5, telling us the model has a good ability to distin
 
 ***
 
-## 🚀 How to Run This Code
+##  How to Run This Code
 
 1.  Download or clone this repository.
 2.  Open the `ROC_AUC_Tutorial.ipynb` file in Google Colab or Jupyter Notebook.
 3.  If using Colab, run the first code cell to upload the `binary_tcr_dummy.csv` and `multiclass_tcr_dummy.csv` files from your computer.
 4.  Run the cells from top to bottom to see the analysis and generate the plots.
 
-## 📁 Files in This Repository
+##  Files in This Repository
 
 * `ROC_AUC_Tutorial.ipynb`: The main Colab/Jupyter notebook with all the code and explanations.
 * `binary_tcr_dummy.csv`: Dummy data for the binary classification task (Binds vs. Not).
