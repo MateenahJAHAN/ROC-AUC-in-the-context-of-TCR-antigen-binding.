@@ -103,3 +103,12 @@ All scores are well above 0.5, telling us the model has a good ability to distin
 * `ROC_AUC_Tutorial.ipynb`: The main Colab/Jupyter notebook with all the code and explanations.
 * `binary_tcr_dummy.csv`: Dummy data for the binary classification task (Binds vs. Not).
 * `multiclass_tcr_dummy.csv`: Dummy data for the multi-class classification task (Antigen 0, 1, or 2).
+
+<!-- portfolio-navigation -->
+## Repository guide
+
+- **Code and notebooks** · [ROC–AUC in the context of TCR antigen binding..ipynb](ROC%E2%80%93AUC%20in%20the%20context%20of%20TCR%20antigen%20binding..ipynb)
+- **Data** · [binary_tcr_dummy.csv](binary_tcr_dummy.csv), [multiclass_tcr_dummy.csv](multiclass_tcr_dummy.csv)
+
+<!-- /portfolio-navigation -->
+
